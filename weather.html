@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            
+            <input type = "text" placeholder = "Enter city name" class="inputtext"/>
+            <button class="search_btn"> 
+                <img src="search.png">
+            </button>
+        
+        </div>
+        <img class="image" src="rain.png">
+        <h1 class="temp">23°C</h1>
+        <h3 class="city">NEW YORK</h3>
+
+        <div class="details">
+            <div class="col1">
+            <img src="humidity.png">
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+            </div>
+            
+            <div class="col2">
+            <img class="wind" src="wind.png">
+            <p class="windspeed">15km/h</p>
+            <p>Wind speed</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="https://kit.fontawesome.com/a79c27f90e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <!-- <form> -->
+            <form class="form">
+                <input type = "text" placeholder = "Enter city name" class="inputtext"/>
+                <!-- <button class="search_btn">  -->
+                    <!-- <img src="search.png"> -->
+                    <i class="fa-solid fa-magnifying-glass search_btn" style="color: #ffffff; font-size: 1.5rem;"></i>
+                <!-- </button> -->
+            </form>
+        <!-- </form> -->
+        </div>
+        <img class="image" src="" height="100px" weather_image>
+        <h1 class="temp"></h1>
+        <h3 class="city"></h3>
+
+        <div class="details">
+            <div class="col1">
+            <img src="humidity.png">
+            <div class="margintop">
+                <p class="humidity"></p>
+            <p>Humidity</p>
+            </div>
+            </div>
+            
+            <div class="col2">
+            <img class="wind" src="wind.png">
+            <div class="margintop">
+                <p class="windspeed"></p>
+            <p>Wind speed</p>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
